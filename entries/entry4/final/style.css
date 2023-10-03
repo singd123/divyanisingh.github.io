@@ -1,0 +1,99 @@
+body{background: floralwhite;}
+
+.main {width: 1500px; max-height: 120%; align-content: center; }
+
+/* Container holding the image and the text */
+.ttw {
+  position: relative;
+  text-align: center;
+  color: ; } 
+
+
+  /* Top left text */
+.left {
+  position: absolute;
+  top: 150px;
+  left: 120px;
+  font-size: 100px;
+  font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 0, "wght" 458; color: darkred;
+transition: all 0.8s ease;
+
+}
+
+.right {position: absolute;
+  top: 150px;
+  right: 170px;
+  font-size: 100px;
+  font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 0, "wght" 458; color: floralwhite;
+transition: all 0.8s ease;
+}
+
+.centered { 
+position: absolute;
+  top: 850px;
+  left: 40.5%;
+  text-align: center;
+  font-size: 100px;
+  font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 0, "wght" 458;
+color: darkred;
+transition: all 0.8s ease;
+ }
+
+
+.left:hover{
+  	cursor: pointer;
+ 	font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 100, "wght" 458;
+ }
+
+ .right:hover{
+  	cursor: pointer;
+ 	font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 100, "wght" 458;
+ }
+
+.centered:hover{
+  	cursor: pointer;
+ 	font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 100, "wght" 458;
+ }
+
+ *{
+ 	padding: 0;
+  margin: 0;
+ }
+
+ .ttw{
+  width: 100%;
+  height: 94.5vh;
+  background: linear-gradient(
+    to right,
+    floralwhite 0%,
+    floralwhite 50%,
+    darkred 50%,
+    darkred 100%
+  ) }
+
+  .sub { font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: darkred;}
+
+.scroll { font-family: "seismic-latin-variable", sans-serif; font-size: 800px; font-weight: 15;
+font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: darkred; }
+
+.scroll:hover .text:hover;{ background-color: url("imgs/m9da147p2serbn988i6h4vsk0n.png");}
+
+
+summary{font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 100, "wght" 458; font-size: 100px;
+color: darkred;}
+
+em {font-size: 20px;
+  font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 0, "wght" 458; color: darkred;}
+
+
+
+
