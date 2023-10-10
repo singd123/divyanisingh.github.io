@@ -41,7 +41,7 @@ body {
     cursor: url('imgs/Subject 42.png'), auto;
     overflow: scroll;
     position: relative;
-    height: 200vh; /* Set to your desired height */
+    height: 300vh; /* Set to your desired height */
 }
 
 
@@ -110,3 +110,19 @@ body.scrolled-400px #gift-text {
     background-image: none;
     color: white; 
 }
+
+.info {font-size: 20pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+text-align: center;}
+
+.textt {font-size: 40pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+text-align: center;
+margin-right: 500px;
+margin-left: 500px}
