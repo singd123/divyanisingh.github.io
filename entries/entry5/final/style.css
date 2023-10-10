@@ -1,0 +1,112 @@
+.container {
+    height: 100vh; /* Set the desired height for your container */
+    overflow: auto;
+    position: relative; /* Relative position for the container */ 
+}
+
+.main {
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+    text-align: center;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #667788;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #4da6ff, 0 0 40px #4da6ff, 0 0 50px #4da6ff, 0 0 60px #4da6ff, 0 0 70px #4da6ff, 0 0 80px #4da6ff;
+    }
+}
+
+body {
+    background-color: darkblue;
+    background-image: url('imgs/sky.jpeg');
+    background-repeat: repeat; /* Set to your desired value */
+    background-size: 100%;
+    cursor: url('imgs/Subject 42.png'), auto;
+    overflow: scroll;
+    position: relative;
+    height: 200vh; /* Set to your desired height */
+}
+
+
+.moon{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+    width: 400px;
+    height: 400px;
+}
+
+#libra-constellation {
+	position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+    z-index: 2;
+}
+
+#gift-overlay {
+    position: sticky;
+    top: ;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    cursor: pointer;
+}
+
+#gift-text {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+/* Show/hide elements on scroll */
+body.scrolled-200px .moon {
+    
+}
+body.scrolled-200px #libra-constellation {
+   
+}
+body.scrolled-400px #gift-overlay {
+    
+}
+body.scrolled-400px #gift-text {
+   
+}
+
+
+.image-text-container {
+    width: 400px;
+    height: 400px;
+    background-image: url('imgs/gift.png'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 200px;
+    font-size: 70px;
+    color: transparent;
+    transition: background-image 0.3s ease; 
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.image-text-container:hover {
+    background-image: none;
+    color: white; 
+}

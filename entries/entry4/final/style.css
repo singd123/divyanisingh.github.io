@@ -11,7 +11,7 @@ body{background: floralwhite;}
 
   /* Top left text */
 .left {
-  position: absolute;
+  position: fixed;
   top: 150px;
   left: 120px;
   font-size: 100px;
@@ -21,7 +21,7 @@ transition: all 0.8s ease;
 
 }
 
-.right {position: absolute;
+.right {position: fixed;
   top: 150px;
   right: 170px;
   font-size: 100px;
