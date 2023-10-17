@@ -215,3 +215,15 @@ button:hover:before {
   content: "the sun’s union with Mercury on October 19. This will empower us with clarity of vision despite the tumultuous energy surrounding us."
 }
 
+
+@media (min-width: 768px) {
+  body { background-color: black;  
+    }
+
+
+    @media (min-width: 1200px) {
+  body { background-color: darkgrey;}
+
+@media (min-width: 688px) {
+  body {  background-color: darkblue;
+    }
