@@ -1,0 +1,217 @@
+
+
+body {
+    cursor: url('imgs/Subject 42.png'), auto;
+    background-color: #121F3C;
+    }
+
+.container {
+  display: flex;
+  padding:100px;
+  background-color: #041029;
+  min-height: 10px;
+  color:  #E0E9F6;
+  font-size:  36px;
+  text-align:  center;
+  min-width: 150px;
+  flex-direction:; 
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly; 
+  animation: glow 1s ease-in-out infinite alternate;
+   border: 2px solid #89AEC8; /* Border properties */
+            border-radius: 40px;
+}
+
+.item {
+  margin: 10px 10px;
+  width: 150px; 
+  color: #E0E9F6;
+  font-family: "beverly-drive-right", sans-serif;
+font-weight: 700;
+font-style: normal;
+text-align: center;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #667788;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #4da6ff, 0 0 40px #4da6ff, 0 0 50px #4da6ff, 0 0 60px #4da6ff, 0 0 70px #4da6ff, 0 0 80px #4da6ff;
+    }
+}
+
+
+.item1 {
+  background-color: ;
+  height: 50px;
+
+}
+
+.item2 {
+  background-color:
+  height: 50px;
+}
+
+.item3 {
+  background-color:  ;
+  height: 50px;
+}
+
+.item4 {
+  background-color: ;
+  height: 50 px;
+}
+
+.item5 {
+  background-color:  ;
+  height: 50;
+}
+
+.item6 {
+  background-color: ;
+  height: 50;
+}
+
+
+.title {
+    font-family: search, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 120px;
+text-align: center;
+color: ghostwhite;
+position: sticky;
+top: 0;
+}
+
+.info {
+    font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+color: ghostwhite;
+opacity: 80%;
+position: relative;
+top: -70px;
+}
+
+.line {align-content: center;
+scale: 40%;
+position: relative;
+top: -650px;
+}
+
+.first { font-family: search, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 60px;
+text-align: center;
+color: #89AEC8;
+position: relative;
+top: -1300px;
+}
+
+.timing {font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+color: #89AEC8;
+opacity: 80%;
+position: relative;
+top: -1350px;}
+
+.mean {font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+text-align: center;
+color: ghostwhite;
+opacity: 80%;
+position: relative;
+top: -1350px;}
+
+.signs {font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+color: #89AEC8;
+opacity: 80%;
+font-size: 16px;
+position: relative;
+top: -1350px;}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: 1fr 0.15fr; /* 2 rows */
+    gap: 10px; /* Adjust the gap as needed */
+    max-width: 1100px;
+    align-content: center;
+    position: relative;
+    top: -1300px;
+}
+
+.grid-item {
+    border: 1px solid #89AEC8;
+    border-radius: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: ghostwhite;
+    align-items: center;
+    text-align: center;
+}
+
+.itms {max-height: 50px; background-color: transparent;
+text-align: center;
+font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 14px;
+text-align: center;
+color: ghostwhite;
+opacity: 80%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.line2 {
+    align-content: center;
+scale: 40%;
+position: relative;
+top: -1850px;
+}
+
+
+button {
+  max-width: 250px;
+  max-height: 1000 px;
+   align-content: center;
+scale: 510%;
+position: relative;
+top: -2300px;
+font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+text-align: center;
+color: #89AEC8;
+opacity: 80%;
+font-size: 8px;
+background-color: transparent;
+border: 2px solid #89AEC8; /* Border properties */
+            border-radius: 40px;
+
+}
+
+button:hover span {
+  display: none
+}
+
+button:hover:before {
+  content: "the sun’s union with Mercury on October 19. This will empower us with clarity of vision despite the tumultuous energy surrounding us."
+}
+
