@@ -225,5 +225,12 @@ button:hover:before {
   body { background-color: grey;}
 
 @media (max-width: 688px) {
-  body {  background-color: darkblue;
+  body {  background-color: darkblue; }
+  .line {scale: 25%}
+  .line2 {scale: 30%}
     }
+
+    .title { font-size: 60px; }
+
+    .info { top: -50px; }
+}
