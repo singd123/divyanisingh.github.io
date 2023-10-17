@@ -216,14 +216,14 @@ button:hover:before {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 868px) {
   body { background-color: black;  
     }
 
 
-    @media (min-width: 1200px) {
-  body { background-color: darkgrey;}
+    @media (max-width: 1200px) {
+  body { background-color: grey;}
 
-@media (min-width: 688px) {
+@media (max-width: 688px) {
   body {  background-color: darkblue;
     }
