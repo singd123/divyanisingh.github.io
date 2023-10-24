@@ -24,13 +24,17 @@ p { color: #524079; opacity: 100%; text-align: center; font-size: 16pt;
 h4 {color: #1B0547; opacity: 80%;  }	
 
 form {margin: 50px,15px; text-align: center; color: #524079;}
-fieldset {margin-left: 400px; margin-right: 400px}
+fieldset {margin-left: 400px; margin-right: 400px; text-align: center;}
 
 meter {
    width: 100px;
-   height : 15px;
-   border: 0px solid gray;
-   background-color: mediumvioletred;}
+   height : 15px;}
+
+   div {display: grid;
+  grid-template-columns: 2;
+  grid-row: 1;
+  background-color:;
+  padding: 10px;}
 
 ol { color: #1B0547; font-size: 14pt; margin-left: 30px }  
 
@@ -38,3 +42,10 @@ ul { color: #524079; margin-left: 35px }
 
 
 h4 {color:#1B0547; font-size: 16pt; margin-left: 25px}
+
+::-moz-selection { background: whitesmoke; 
+                   color: darkorchid; opacity: 60%;}
+
+::selection { background: whitesmoke; 
+              color: darkorchid;
+              opacity: 60%;} 

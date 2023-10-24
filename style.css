@@ -1,0 +1,39 @@
+
+body {background-image: url('imgs/bg.jpg');
+ background-size: 100% }
+
+::-moz-selection { background: whitesmoke; 
+                   color: darkorchid; opacity: 60%;}
+
+::selection { background: whitesmoke; 
+              color: darkorchid;
+              opacity: 60%;} 
+
+p {text-align: center; color: lavender; font-size: 20px}
+
+
+ol {color: ghostwhite; display: flex;flex-direction:; 
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly; 
+  padding:100px;
+  min-height: 10px;
+  font-size:  16px;
+  text-align:  center;
+  min-width: 100px;
+  background-color: #9eb1e0;
+  opacity: 80%;
+ font-size: 20px}
+
+h1 {color: ghostwhite; text-align: center; font-size:100px}
+
+@media (max-width: 868px) {
+  body { background-color: black; }
+
+    @media (max-width: 1200px) {
+  body { background-color: darkorchid;}
+
+@media (max-width: 688px) {
+  body {  background-color: darkblue; }
+
+
+ 

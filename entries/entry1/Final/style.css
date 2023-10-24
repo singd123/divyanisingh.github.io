@@ -1,0 +1,44 @@
+
+body {background-color: #e9cdef;}
+h1 {position: relative;
+	top: 1px; text-align: center;
+    font-size: 140px;
+    color: #10425b;
+    font-family: "le-havre", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+     
+.info {position: relative;
+	top: -60px; text-align: center;
+	font-size: 40px;
+    color: #5A8397;
+    font-family: "adventures-unlimited", sans-serif;
+font-weight: 400;
+font-style: normal;}
+
+marquee {background-color: ; 
+         color: #10425b;
+     font-family: "le-havre", sans-serif;
+font-weight: 400;
+font-style: normal;
+position: relative; top: -30px}
+
+h2 {position: absolute;
+	top: 470px; text-align: ;
+	left:20 px;
+	font-size: 90px;
+    color: #10425b;
+    font-family: "le-havre", sans-serif;
+font-weight: 200;
+font-style: normal;}
+
+p, input, h3, ul, form, details {color: #40697D}
+
+
+::-moz-selection { background: whitesmoke; 
+                   color: darkorchid; opacity: 60%;}
+
+::selection { background: whitesmoke; 
+              color: darkorchid;
+              opacity: 60%;} 
