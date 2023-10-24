@@ -42,15 +42,6 @@ color: floralwhite;}
 
  .zigzag {
     white-space: pre;
-    background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #8480f9, #06044e);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-    
-}
   }
   .zigzag span {
     display: block;
@@ -67,4 +58,13 @@ color: floralwhite;}
   }
   .zigzag span:nth-child(even) {
     transform-origin: 0 0;
-    transform: rotate(5deg);
+    transform: rotate(5deg);}
+
+
+
+::-moz-selection { background: whitesmoke; 
+                   color: darkorchid; opacity: 60%;}
+
+::selection { background: whitesmoke; 
+              color: darkorchid;
+              opacity: 60%;} 
