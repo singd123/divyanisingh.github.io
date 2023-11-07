@@ -1,48 +1,83 @@
 body {
     cursor: url('imgs/Subject 42.png'), auto;
     background-color: black;
-    position: relative;
-    }
+}
 
-   ::-moz-selection { background: whitesmoke; 
-                   color: darkorchid; opacity: 60%;}
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
 
-   ::selection { background: whitesmoke; 
-              color: darkorchid;
-              opacity: 60%;} 
+::selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
 
-h1 {color: ghostwhite; 
+h1 {
+    color: ghostwhite;
     text-align: center;
     font-size: 100pt;
     font-family: "fabiola-capitals", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
-    animation: glow 1s ease-in-out infinite alternate;
-    text-align: center;
+    animation: glowText 1s ease-in-out infinite alternate;
     line-height: 90pt;
     position: fixed;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -50%);
-    text-align: center;
-    }
+}
 
-
-    #tales {
+#tales {
     font-family: "fabiola-script", sans-serif;
     font-weight: 400;
-    font-style: normal; }
+    font-style: normal;
+}
 
-    @-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 
-        0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #667788;
+
+
+.info {
+    color: ghostwhite;
+    font-size: 15pt;
+    text-align: center;
+    opacity: 80%;
+
+}
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #667788;
+    }
+    100% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+
+
+.st0 {scale: 5%;
+
+    position: relative;
+    left: 50px;
+}
+  
+
+
+
+@keyframes moveSVG {
+      0% {
+        transform: translate(0px, 0px);
+      }
+      50% {
+        transform: translate(100px, 100px);
+      }
+      100% {
+        transform: translate(200px, 200px);
+      }
     }
 
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #7a2ce8, 0 0 40px #7a2ce8,
-         0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    #Layer_1 {
+      animation: moveSVG 4s infinite linear;
     }
 
 
