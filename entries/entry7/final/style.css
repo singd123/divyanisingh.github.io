@@ -1,6 +1,7 @@
 body {
     cursor: url('imgs/Subject 42.png'), auto;
     background-color: black;
+    width: auto;
 }
 
 ::-moz-selection {
@@ -40,7 +41,11 @@ h1 {
     color: ghostwhite;
     font-size: 15pt;
     text-align: center;
-    opacity: 80%;
+    opacity: 90%;
+    font-family: "neulis-neue-hairline", sans-serif;
+font-weight: 100;
+font-style: normal;
+
 
 }
 
@@ -55,7 +60,7 @@ h1 {
 
 
 
-.st0 {scale: 5%;
+.st0, image {scale: 25%;
 
     position: relative;
     left: 50px;
@@ -66,18 +71,56 @@ h1 {
 
 @keyframes moveSVG {
       0% {
-        transform: translate(0px, 0px);
+        transform: translate(38%, 90px);
       }
       50% {
-        transform: translate(100px, 100px);
+        transform: translate(38%, 110px);
       }
       100% {
-        transform: translate(200px, 200px);
+        transform: translate(38%, 70px);
       }
     }
 
     #Layer_1 {
-      animation: moveSVG 4s infinite linear;
+      animation: moveSVG 2s infinite linear;
     }
+
+
+.last {color: #7a2ce8; 
+    text-align: center; 
+    font-size: 45pt;
+    position: relative;
+    top: 0px;
+    font-family: "neulis-neue", sans-serif;
+    font-weight: 700;
+    font-style: normal;}
+
+
+.time {color: ghostwhite;
+    position: relative;
+    text-align: center;
+    font-size: 17pt;
+    font-family: "neulis-neue-hairline", sans-serif;
+font-weight: 100;
+font-style: normal;
+top: -600px;
+
+}    
+
+
+.dets {color: #7a2ce8; 
+    text-align: center; 
+    position: relative;
+    font-size: 15pt;
+    position: relative;
+    top: px;
+   margin-left: 200pt; 
+   margin-right: 200pt;}
+
+
+
+
+
+
 
 
