@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+    <link rel="stylesheet" href="https://use.typekit.net/ing7kde.css">
+    <link rel="stylesheet" href="https://use.typekit.net/xhd0kmk.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jfs6aup.css">
+
+    <title>Transit Tales Weekly</title>
+</head>
+<body>
+
+<h1 id="glowText">Transit<span id="tales">Tales</span>Weekly</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="mode-switch" id="modeSwitch">
+    Somethings are only visible in the dark
+</div>
+
+<div class="lunar-card" data-phase="New Moon">
+    <h3>New Moon</h3>
+    <p>Beginnings and intentions.</p>
+    <div class="details">
+        <p>Significance in astrology...</p>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.lunar-card').click(function () {
+            $(this).find('.details').slideToggle();
+        });
+
+        $('#modeSwitch').click(function () {
+            $('body').toggleClass('dark-mode');
+            $('#glowText').toggleClass('glow'); // Add or remove the 'glow' class based on dark mode
+        });
+    });
+</script>
+
+</body>
+</html>

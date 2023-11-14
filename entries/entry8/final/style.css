@@ -1,0 +1,128 @@
+
+body {
+    cursor: url('imgs/Subject 42.png'), auto;
+    background-color:;
+    width: auto;
+}
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Add a new class for the glow effect */
+/* ... your existing CSS ... */
+
+/* Add a new class for the glow effect */
+.glow {
+    animation: glowText 1s ease-in-out infinite alternate;
+}
+/* ... your existing CSS ... */
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+mod
+
+
+
+
+
+.lunar-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.lunar-card:hover {
+    background-color: #f0f0f0;
+}
+
+.details {
+    display: none;
+}
+
+
+.lunar-card {
+    background-color: #fff;
+    color: #fff; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lunar-card:hover {
+    background-color: #f0f0f0;
+}
+
+.details {
+    display: none;
+}
+
+
+#modeSwitch {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    position: relative;
+    align-content: center;
+    align-items: center;
+}
+
+#modeSwitch:hover {
+    background-color: #555;
+}
+
+
+
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
+.dark-mode .lunar-card {
+    background-color: #333; 
+    color: ghostwhite;
+

@@ -63,27 +63,11 @@ font-style: normal;
 .st0, image {scale: 25%;
 
     position: relative;
-    left: 50px;
+    left: 200px;
 }
   
 
 
-
-@keyframes moveSVG {
-      0% {
-        transform: translate(38%, 90px);
-      }
-      50% {
-        transform: translate(38%, 110px);
-      }
-      100% {
-        transform: translate(38%, 70px);
-      }
-    }
-
-    #Layer_1 {
-      animation: moveSVG 2s infinite linear;
-    }
 
 
 .last {color: #7a2ce8; 
@@ -114,9 +98,21 @@ top: -600px;
     font-size: 15pt;
     position: relative;
     top: px;
-   margin-left: 200pt; 
-   margin-right: 200pt;}
+   margin-left: 20%; 
+   margin-right: 20%;}
 
+
+@media (max-width: 868px) {
+  
+.st0, image {scale: 35%;} 
+}
+
+    @media (max-width: 1200px) {
+  
+
+@media (max-width: 688px) {
+    .st0, image {scale: 35%;}
+  }
 
 
 
