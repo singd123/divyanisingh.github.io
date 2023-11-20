@@ -8,20 +8,14 @@
     <link rel="stylesheet" href="https://use.typekit.net/ing7kde.css">
     <link rel="stylesheet" href="https://use.typekit.net/xhd0kmk.css">
     <link rel="stylesheet" href="https://use.typekit.net/jfs6aup.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ury3cui.css">
 
     <title>Transit Tales Weekly</title>
 </head>
 <body>
 
 <h1 id="glowText">Transit<span id="tales">Tales</span>Weekly</h1>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
@@ -37,28 +31,40 @@
     Somethings are only visible in the dark
 </div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <div class="lunar-card" data-phase="New Moon">
-    <h3>New Moon</h3>
-    <p>Beginnings and intentions.</p>
+    <h3>New Moon in Scorpio </h3>
+    <p class="info">Beginnings, intentions and more ?</p>
+    <br>
     <div class="details">
-        <p>Significance in astrology...</p>
+        <p> <span class="time">The New Moon occurs on Monday, November 13th, 2023, at 4:27 AM EST</span>
+            <br>
+        Early Monday morning, the New Moon occurs when the Sun and Moon align in the sign of Scorpio. This New Moon is conjunct Mars and opposite Uranus, suggesting a strong drive to push forward a new beginning, although rather erratic or rebellious energy. This energy is cantankerous, temperamental, and willful.</p>
     </div>
 </div>
 
-
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script>
-    $(document).ready(function () {
+
+        $(document).ready(function () {
         $('.lunar-card').click(function () {
             $(this).find('.details').slideToggle();
         });
 
         $('#modeSwitch').click(function () {
             $('body').toggleClass('dark-mode');
-            $('#glowText').toggleClass('glow'); // Add or remove the 'glow' class based on dark mode
+            $('#glowText').toggleClass(''); 
+            $('.square').toggleClass('.show'); // Add or remove the 'glow' class based on dark mode
         });
-    });
+        });
 </script>
+
 
 </body>
 </html>
