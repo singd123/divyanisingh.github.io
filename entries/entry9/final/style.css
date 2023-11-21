@@ -1,0 +1,157 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1c; /* Set a light background color */
+    color: #333; /* Set a default text color */
+    cursor: url('imgs/Subject 42.png'), auto;
+}
+
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+
+
+.theme-customization-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "meursault-variable",serif;
+  font-variation-settings: 'wdth' 150, 'wght' 500;
+  color: ghostwhite;
+  position: relative;
+  left: -20%;
+
+
+
+
+}
+
+
+.feelings-section {
+
+     margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "meursault-variable",serif;
+    font-variation-settings: 'wdth' 150, 'wght' 500;
+    position: relative;
+    right: -30%;
+    top: -230px ;
+    color: ghostwhite;
+    background-color: transparent;
+
+}
+
+.moon-phase-section {
+
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    font-family: "meursault-variable",serif;
+    font-variation-settings: 'wdth' 150, 'wght' 500;
+    text-align: left;
+    position: relative;
+    left: -35%;
+    color: ghostwhite;
+    background-color: black;
+
+}
+
+#moonPhaseInfo { 
+
+    opacity: 70%;
+    line-height: 16pt;
+
+}
+
+.asymmetrical {
+    align-self: flex-end; /* Align to the end of the container */
+}
+
+#sentenceGenerator {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#sentenceGenerator:hover {
+    background-color: #370470;
+}
+
+#moonsignInfo { 
+opacity:70%;
+  text-align: right;
+    position: relative;
+    right: -75%;
+     line-height: 16pt;
+     color: #9d79d4;
+
+ }
+
+ #colorPicker {
+    position: relative;
+    left:20px;
+ }
+
+ .signs {
+    color: ghostwhite;
+  }
