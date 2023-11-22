@@ -2,8 +2,8 @@ body {
     font-family: "Arial", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1b1b1c; /* Set a light background color */
-    color: #333; /* Set a default text color */
+    background-color: #1b1b1c; 
+    color: #333; 
     cursor: url('imgs/Subject 42.png'), auto;
 }
 
@@ -121,7 +121,7 @@ h1 {
 }
 
 .asymmetrical {
-    align-self: flex-end; /* Align to the end of the container */
+    align-self: flex-end; 
 }
 
 #sentenceGenerator {
