@@ -1,0 +1,116 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1c;
+    color: #333;
+    cursor: url('imgs/Subject 42.png'), auto;
+}
+
+/* The rest of your CSS styles... */
+
+
+
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+.info { color: ghostwhite; 
+  text-align: center;
+padding: 20px;
+    margin: 370px;
+font-size: 18px;
+font-family: "mixta-didone", serif;
+font-weight: 450;
+font-style: normal;}
+
+#time { font-size: 22px; 
+font-family: "mixta-didone", serif;
+font-weight: 600;
+font-style: normal;}
+
+#journalContent.loading {
+    
+
+
+}
+
+.interactive-section {
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    color: ghostwhite; 
+    font-family: "mixta-didone", serif;
+font-weight: 500;
+font-style: normal;
+}
+
+
+#journalContent, #meditationContent {
+    text-align: left;
+}
+
+
+/* Add this CSS for the animated background transition */
+body.in-the-zone {
+    animation: colorTransition 10s infinite alternate; /* Adjust the duration as needed */
+}
+
+#getIntoTheZone { background: transparent;
+ color: #ccc}
+
+@keyframes colorTransition {
+    0% {
+        background-color: #1b1b1c 
+    }
+
+    50% {
+
+        background-color: #ae81db /* Lavender */
+    }
+    100% {
+        background-color: #5e07b0/* Light Grey */
+    }
+}

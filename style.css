@@ -18,7 +18,14 @@ p {text-align: center; color: lavender; font-size: 20px;
   text-align:center;}
 
 
+a {color: white;
+    text-decoration: none;
+    text-align: left;
 
+}
+a:visited {
+    color: white;
+}
 
 h1 {color: ghostwhite; text-align: center; font-size:200px;
     font-size: 170pt;
