@@ -74,6 +74,9 @@ font-style: normal;}
 
 }
 
+#userThoughts { font-size: 15pt; 
+ }
+
 .interactive-section {
     background-color: transparent;
     padding: 20px;
@@ -98,7 +101,11 @@ body.in-the-zone {
     animation: colorTransition 10s infinite alternate; /* Adjust the duration as needed */
 }
 
-#getIntoTheZone { background: transparent;
+#submitThoughts { background-color: transparent; 
+color: #ccc}
+
+#getIntoTheZone 
+{ background: transparent;
  color: #ccc}
 
 @keyframes colorTransition {
