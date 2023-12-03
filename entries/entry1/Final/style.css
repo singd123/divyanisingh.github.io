@@ -8,6 +8,7 @@ body {
     background-color: #1b1b1c; 
     color: #333; 
     cursor: url('imgs/Subject 42.png'), auto;
+
 }
 
 
@@ -66,24 +67,33 @@ font-weight: 400;
 font-style: normal;}
 
 marquee {background-color: ; 
-         color: #10425b;
+         color: #9d79d4;
      font-family: "le-havre", sans-serif;
 font-weight: 400;
-font-style: normal;
-position: relative; top: -30px}
+font-style: normal; opacity: 60%;
+position: relative; top: -30px
+}
 
 h2 {position: absolute;
 	top: 470px; text-align: ;
 	left:20 px;
 	font-size: 90px;
-    color: #10425b;
-    font-family: "le-havre", sans-serif;
-font-weight: 200;
+    color: #9d79d4;
+    font-family: "adventures-unlimited", sans-serif;
+font-weight: 500;
+margin: 40px;
 font-style: normal;}
 
 p, input, h3, ul, form, details {color: ghostwhite; 
- opacity: 80%; } 
+ opacity: 80%;font-family: "le-havre", sans-serif;
+font-weight: 200;
+margin-left: 40px; } 
+form {
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
 
+}
 
 ::-moz-selection { background: whitesmoke; 
                    color: darkorchid; opacity: 60%;}
@@ -91,3 +101,15 @@ p, input, h3, ul, form, details {color: ghostwhite;
 ::selection { background: whitesmoke; 
               color: darkorchid;
               opacity: 60%;} 
+
+summary {
+    font-family: "adventures-unlimited", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #9d79d4;
+font-size: 50px;
+text-align: center;
+}
+
+
+
