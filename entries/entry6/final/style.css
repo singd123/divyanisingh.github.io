@@ -1,26 +1,69 @@
 
 
 body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1c; 
+    color: #333; 
     cursor: url('imgs/Subject 42.png'), auto;
-    background-color: #121F3C;
-    }
+}
+
 
 .container {
   display: flex;
-  padding:100px;
-  background-color: #041029;
+  padding:70px;
+  background-color: #7551a8;
   min-height: 10px;
   color:  #E0E9F6;
   font-size:  36px;
   text-align:  center;
-  min-width: 150px;
+  max-width: 1100px;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  left: 10%;
   flex-direction:; 
   flex-wrap: wrap-reverse;
   justify-content: space-evenly; 
-  animation: glow 1s ease-in-out infinite alternate;
-   border: 2px solid #89AEC8; /* Border properties */
+   
+  text-shadow: 2px 2px 8px #FFf;
+   border: 2px solid ghostwhite; /* Border properties */
             border-radius: 40px;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
 
 .item {
   margin: 10px 10px;
@@ -34,11 +77,11 @@ text-align: center;
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #667788;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #462773;
     }
 
     to {
-        text-shadow: 0 0 20px #fff, 0 0 30px #4da6ff, 0 0 40px #4da6ff, 0 0 50px #4da6ff, 0 0 60px #4da6ff, 0 0 70px #4da6ff, 0 0 80px #4da6ff;
+        text-shadow: 0 0 20px #fff, 0 0 30px #462773, 0 0 40px #462773, 0 0 50px #462773, 0 0 60px #462773, 0 0 70px #462773, 0 0 80px #462773;
     }
 }
 
@@ -98,9 +141,9 @@ top: -70px;
 }
 
 .line {align-content: center;
-scale: 40%;
+scale: 38%;
 position: relative;
-top: -650px;
+top: -590px;
 }
 
 .first { font-family: search, sans-serif;
@@ -108,7 +151,7 @@ font-weight: 400;
 font-style: normal;
 font-size: 60px;
 text-align: center;
-color: #89AEC8;
+color: #9977d8;
 position: relative;
 top: -1300px;
 }
@@ -117,15 +160,16 @@ top: -1300px;
 font-weight: 400;
 font-style: normal;
 text-align: center;
-color: #89AEC8;
+color: #9977d8;
 opacity: 80%;
 position: relative;
-top: -1350px;}
+top: -1350px;
+font-size: 18px}
 
 .mean {font-family: beverly-drive-right, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 14px;
+font-size: 18px;
 text-align: center;
 color: ghostwhite;
 opacity: 80%;
@@ -136,9 +180,9 @@ top: -1350px;}
 font-weight: 400;
 font-style: normal;
 text-align: center;
-color: #89AEC8;
+color: #9977d8;
 opacity: 80%;
-font-size: 16px;
+font-size: 20px;
 position: relative;
 top: -1350px;}
 
@@ -154,7 +198,7 @@ top: -1350px;}
 }
 
 .grid-item {
-    border: 1px solid #89AEC8;
+    border: 1px solid #9977d8;
     border-radius: 40px;
     padding: 10px;
     text-align: center;
@@ -168,7 +212,7 @@ text-align: center;
 font-family: beverly-drive-right, sans-serif;
 font-weight: 400;
 font-style: normal;
-font-size: 14px;
+font-size: 18px;
 text-align: center;
 color: ghostwhite;
 opacity: 80%;
@@ -188,31 +232,41 @@ top: -1850px;
 
 
 button {
-  max-width: 250px;
+  max-width: 150px;
   max-height: 1000 px;
    align-content: center;
 scale: 510%;
 position: relative;
 top: -2300px;
-font-family: beverly-drive-right, sans-serif;
+font-family: search, sans-serif;
 font-weight: 400;
 font-style: normal;
 text-align: center;
-color: #89AEC8;
+color: ghostwhite;
 opacity: 80%;
 font-size: 8px;
 background-color: transparent;
-border: 2px solid #89AEC8; /* Border properties */
-            border-radius: 40px;
+border: 1.5px dotted #9977d8; /* Border properties */
+            border-radius: 10px;
 
 }
 
 button:hover span {
+  font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+max-width: 150px;
+
   display: none
 }
 
 button:hover:before {
-  content: "the sun’s union with Mercury on October 19. This will empower us with clarity of vision despite the tumultuous energy surrounding us."
+  content: "the sun’s union with Mercury on October 19. This will empower us with clarity of vision despite the tumultuous energy surrounding us.";
+   font-family: beverly-drive-right, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 6px;
+max-width: 150px;
 }
 
 

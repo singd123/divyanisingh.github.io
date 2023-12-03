@@ -1,12 +1,45 @@
-body{background: floralwhite;}
-
-.main {width: 1500px; max-height: 120%; align-content: center; }
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1c; 
+    color: #333; 
+    cursor: url('imgs/Subject 42.png'), auto;
+}
 
 /* Container holding the image and the text */
-.ttw {
-  position: relative;
-  text-align: center;
-  color: ; } 
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
 
 
   /* Top left text */
@@ -61,24 +94,16 @@ font-variation-settings: "SEIS" 100, "wght" 458;
 font-variation-settings: "SEIS" 100, "wght" 458;
  }
 
- *{
- 	padding: 0;
-  margin: 0;
- }
+
 
  .ttw{
   width: 100%;
-  height: 102vh;
-  background: linear-gradient(
-    to right,
-    floralwhite 0%,
-    floralwhite 50%,
-    #03253a 50%,
-    #03253a 100%
-  ) }
+  height: 100%;
+  background-color: purple;
+   }
 
   .sub { font-family: "seismic-latin-variable", sans-serif;
-font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: #03253a; font-size: 20px}
+font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: ghostwhite; font-size: 20px}
 
 .scroll { font-family: "seismic-latin-variable", sans-serif; font-size: 800px; font-weight: 15;
 font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: #03253a; }
