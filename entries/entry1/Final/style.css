@@ -1,18 +1,66 @@
 
-body {background-color: #e9cdef;}
-h1 {position: relative;
-	top: 1px; text-align: center;
-    font-size: 140px;
-    color: #10425b;
-    font-family: "le-havre", sans-serif;
-font-weight: 400;
-font-style: normal;
+
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1c; 
+    color: #333; 
+    cursor: url('imgs/Subject 42.png'), auto;
 }
+
+
+::-moz-selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+::selection {
+    background: rgba(255, 255, 255, 0.6);
+    color: rgba(139, 0, 139, 0.6);
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+
      
 .info {position: relative;
 	top: -60px; text-align: center;
 	font-size: 40px;
-    color: #5A8397;
+    color: ghostwhite;
+    opacity: 50%;
     font-family: "adventures-unlimited", sans-serif;
 font-weight: 400;
 font-style: normal;}
@@ -33,7 +81,8 @@ h2 {position: absolute;
 font-weight: 200;
 font-style: normal;}
 
-p, input, h3, ul, form, details {color: #40697D}
+p, input, h3, ul, form, details {color: ghostwhite; 
+ opacity: 80%; } 
 
 
 ::-moz-selection { background: whitesmoke; 

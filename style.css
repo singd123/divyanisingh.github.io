@@ -1,6 +1,7 @@
 
 body {background-color: black;
-cursor: url('imgs/Subject 42.png'), auto;}
+cursor: url('imgs/Subject 42.png'), auto;
+margin: 65px}
 
 ::-moz-selection { background: whitesmoke; 
                    color: darkorchid; opacity: 60%;}
@@ -19,10 +20,15 @@ p {text-align: center; color: lavender; font-size: 20px;
 
 
 a {color: white;
-    text-decoration: none;
+    text-decoration: underline;
     text-align: left;
+    font-size: 15pt;
+    line-height: 50px;
+    margin: 30px;
+    text-align: center;}
 
 }
+
 a:visited {
     color: white;
 }
@@ -79,6 +85,18 @@ img {z-index: 1}
 
 @media (max-width: 688px) {
   body {  background-color: darkblue; } }
+
+
+.flex { display:flex; flex-wrap: wrap; 
+    flex-direction: row, column; justify-content: space-evenly, 20px;
+    height: 300px;
+    margin: 50px; 
+ text-align: center;} 
+
+ div { margin-left: 50px;
+ margin-right:50px; 
+text-align: center;} 
+ 
 
 
  
