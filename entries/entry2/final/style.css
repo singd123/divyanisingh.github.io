@@ -1,31 +1,79 @@
+
 h1 {
-	font-family: georgia; font-size: 60pt; text-align: center; font-weight: lighter;
-	text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
-    0px 0px 20px #b393d3; color: ghostwhite; line-height: 10pt;
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
 }
 
-h2 { font-family: helvetica; font-size: 16pt; text-align: center; color: ghostwhite; 
-	opacity: 70%; font-weight:lighter; font-style: italic; }
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-h3 {text-align: center; font-size: 60pt}
 
-h3 {font-family: serif; color: #1B0547; font-weight: 70; font-style: italic; font-size: 50pt; line-height: 2pt}
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+.sub { font-size: 16pt; text-align: center; color: ghostwhite; 
+	opacity: 70%;
+font-family: fields, sans-serif;
+font-weight: 300;
+font-style: normal;}
+
+
+.first { color: ghostwhite; font-weight: 70; 
+   text-align: center; font-size: 100px;
+font-family: fields, sans-serif;
+font-weight: 500;
+font-style: normal;
+   font-size: 50pt; 
+   line-height: 2pt}
 body {
-	 background: linear-gradient(#1B0547, ghostwhite); background-size: cover;
-	  background-repeat: no-repeat; }
+    
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1c; 
+    color: #333; 
+    cursor: url('imgs/Subject 42.png'), auto;
+}
+
 
 p1 { color:silver; font-family: helvetica; font-size: 12; font-weight: 70;}
 
 p2 { color: ghostwhite;text-align: center;}
 
-p { color: #524079; opacity: 100%; text-align: center; font-size: 16pt; 
+p { color: #735da3; opacity: 100%; text-align: center; font-size: 16pt; 
 	margin: 50pt, 15pt; line-height: 17.5pt;}
 
-h4 {color: #1B0547; opacity: 80%;  }	
+.sec {color: white; opacity: 80%; font-family: fields, sans-serif;
+font-weight: 500;
+font-style: normal; font-size:30px }	
 
-form {margin: 50px,15px; text-align: center; color: #524079;}
+form {margin: 50px,15px; text-align: center; color: #735da3; 
+font-family: fields, sans-serif;
+font-weight: 300;
+font-style: normal; }
 fieldset {margin-left: 400px; margin-right: 400px; text-align: center;}
-
+marquee { font-family: fields, sans-serif;
+font-weight: 300;
+font-style: normal; }
 meter {
    width: 100px;
    height : 15px;}
@@ -36,9 +84,9 @@ meter {
   background-color:;
   padding: 10px;}
 
-ol { color: #1B0547; font-size: 14pt; margin-left: 30px }  
+ol { color: #cecad9; font-size: 14pt; margin-left: 30px }  
 
-ul { color: #524079; margin-left: 35px } 
+ul { color: #735da3; margin-left: 35px } 
 
 
 h4 {color:#1B0547; font-size: 16pt; margin-left: 25px}

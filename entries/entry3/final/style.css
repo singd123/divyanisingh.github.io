@@ -1,13 +1,55 @@
 .transit {font-family: "tangly-lines-symmetric", sans-serif;
 font-weight: 400;
-font-style: normal; font-size: 100pt; text-align: center; line-height: 1}
+font-style: normal; font-size: 100pt; text-align: center; line-height: 1;
+color: floralwhite;
+ background: linear-gradient( 
+            to bottom, #5a1cb0, white, white, white, #5a1cb0); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
 
-h1 {font-family: "duende-pro", sans-serif;
+.transi {font-family: "tangly-lines-symmetric", sans-serif;
 font-weight: 400;
-font-style: normal; 
-font-size: 120pt; 
-text-align: center;
- line-height: 0.01}
+font-style: normal; font-size: 100pt; text-align: center; line-height: 1;
+color: floralwhite;
+ background: linear-gradient( 
+            to top, #5a1cb0, white, white, white, white, white, #5a1cb0); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(102, 119, 136, 0.8), 0 0 40px rgba(102, 119, 136, 0.8), 0 0 50px rgba(102, 119, 136, 0.8), 0 0 60px rgba(102, 119, 136, 0.8), 0 0 70px rgba(102, 119, 136, 0.8);
+    }
+    100% {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+
 
 #more {text-align: left;}
 
@@ -50,7 +92,12 @@ color: floralwhite;}
     font-size: 20pt;
      margin-right: 45pt;
      color: lightgrey;
+      background: linear-gradient( 
+            to right, white, white, #5a1cb0, #5a1cb0); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
 }
+
 
  .zigzag span:nth-child(odd) {
     transform-origin: 0 0;
