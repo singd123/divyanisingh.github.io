@@ -1,3 +1,39 @@
+img {
+    width: 75px;
+                height: 85px;
+                position: fixed;
+                top: 3px;
+                left: 58%;
+
+
+}
+
+.cres { width: 70px;
+                height: 70px;
+                position: fixed;
+                top: 7px;
+                left: 35%;
+                 }
+
+a { color: #765ab8;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12pt;
+    font-family: the-seasons, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+
+top: 32px;
+left: 47%;
+
+    text-align: center;}
+
+}
+
+a:visited {
+    color: white; } 
+
 .container {
     height: 100vh; /* Set the desired height for your container */
     overflow: auto;

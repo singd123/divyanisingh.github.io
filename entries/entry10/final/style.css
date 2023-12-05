@@ -1,3 +1,41 @@
+
+.newmoon {
+    width: 58px;
+                height: 68px;
+                position: fixed;
+                top: 12px;
+                left: 60%;
+
+
+}
+
+.cres { width: 60px;
+                height: 70px;
+                position: fixed;
+                top: 9px;
+                left: 37%;
+                 }
+
+.hi {color: #765ab8;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12pt;
+    font-family: the-seasons, sans-serif;
+font-weight: 400;
+font-style: normal;
+position: fixed;
+
+top: 32px;
+left: 47%;
+
+    text-align: center;}
+
+}
+
+.hi:visited {
+    color: white; } 
+
+
 body {
     font-family: "Arial", sans-serif;
     margin: 0;
@@ -33,7 +71,7 @@ h1 {
     line-height: 90pt;
     position: fixed;
     left: 50%;
-    top: 10%;
+    top: 14%;
     transform: translate(-50%, -50%);
     z-index: 1000;
 }
@@ -75,6 +113,12 @@ font-style: normal;}
 }
 
 #userThoughts { font-size: 15pt; 
+    min-width: 40%;
+    min-height: 100px;
+    position: relative;
+    left: 30%;
+    border-radius: 8px;
+    border: 2px dotted #7a2ce8;
  }
 
 .interactive-section {
@@ -102,10 +146,17 @@ body.in-the-zone {
 }
 
 #submitThoughts { background-color: transparent; 
-color: #ccc}
+color: #ccc;
+position: relative;
+border-radius: 8px;
+top: -5px;
+    border: 2px dotted #7a2ce8;
+left: 30%;}
 
 #getIntoTheZone 
 { background: transparent;
+    border-radius: 8px;
+    border: 2px dotted #7a2ce8;
  color: #ccc}
 
 @keyframes colorTransition {

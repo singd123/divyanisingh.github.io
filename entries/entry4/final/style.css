@@ -1,3 +1,40 @@
+img {
+    width: 70px;
+                height: 75px;
+                position: fixed;
+                top: 10px;
+                left: 37%;
+
+
+}
+
+.cres { width: 70px;
+                height: 70px;
+                position: fixed;
+                top: 7px;
+                left: 58%;
+                 }
+
+a {color: #765ab8;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12pt;
+    font-family: the-seasons, sans-serif;
+font-weight: 400;
+font-style: normal;
+position: fixed;
+
+top: 32px;
+left: 47%;
+
+    text-align: center;}
+
+}
+
+a:visited {
+    color: white; } 
+
+
 body {
     font-family: "Arial", sans-serif;
     margin: 0;
@@ -105,19 +142,32 @@ font-variation-settings: "SEIS" 100, "wght" 458;
   .sub { font-family: "seismic-latin-variable", sans-serif;
 font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: ghostwhite; font-size: 20px}
 
-.scroll { font-family: "seismic-latin-variable", sans-serif; font-size: 800px; font-weight: 15;
-font-variation-settings: "SEIS" 0, "wght" 458; text-align: center; left: 41%; color: #03253a; }
+.scroll { font-family: "seismic-latin-variable", sans-serif; font-size: 20px; font-weight: 15;
+font-variation-settings: "SEIS" 0, "wght" 458; position: relative;text-align: center; left: 40%; color: #1b1133; 
+line-height: 40px; width: 300px;
+  height: 300px;
+  background: ghostwhite;
+  border-radius: 50%;
+  border-style: ;
+  box-shadow: 0 4px 8px 10px #74747d;
+  filter: blur(0px);
+  }
 
-.scroll:hover .text:hover;{ background-color: url("imgs/m9da147p2serbn988i6h4vsk0n.png");}
+.scroll:hover { background: linear-gradient(to right, ghostwhite,  #4a148c);
+transition: background 0.3s ease;
+filter: blur(2px); color: transparent;}
 
 
 summary{font-family: "seismic-latin-variable", sans-serif;
-font-variation-settings: "SEIS" 100, "wght" 458; font-size: 50px;
-color: #03253a;}
+font-variation-settings: "SEIS" 10, "wght" 458; font-size: 50px;
+color: ghostwhite; }
+
+summary:hover { font-family: "seismic-latin-variable", sans-serif;
+font-variation-settings: "SEIS" 100, "wght" 458; }
 
 em {font-size: 20px;
   font-family: "seismic-latin-variable", sans-serif;
-font-variation-settings: "SEIS" 0, "wght" 458; color: #5A8397;}
+font-variation-settings: "SEIS" 0, "wght" 458; color: #9d79d4;}
 
 ::-moz-selection { background: whitesmoke; 
                    color: darkorchid; opacity: 60%;}
