@@ -79,6 +79,8 @@ h1 {
     font-size: 15pt;
     text-align: center;
     opacity: 90%;
+    position: relative;
+    top: 300px;
     font-family: "neulis-neue-hairline", sans-serif;
 font-weight: 100;
 font-style: normal;
@@ -150,7 +152,31 @@ top: -150px;
 .allstar { 
     position: relative;
     scale: 200%;
+    -webkit-animation: flickerAnimation .5s infinite;
+   -moz-animation: flickerAnimation .5s infinite;
+   -o-animation: flickerAnimation .5s infinite;
+    animation: flickerAnimation .5s infinite;
+
  }
 
-
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
 
