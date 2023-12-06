@@ -34,6 +34,40 @@ left: 47%;
 a:visited {
     color: white; } 
 
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    font-size: 100pt;
+    font-family: "fabiola-capitals", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: glowText 1s ease-in-out infinite alternate;
+    line-height: 90pt;
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+#tales {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@keyframes glowText {
+    0% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #667788, 0 0 40px #667788, 0 0 50px #667788, 0 0 60px #667788, 0 0 70px #667788;
+    }
+    100% {
+        text-shadow: 0 0 20px #fff, 0 0 30px #7a2ce8, 0 0 40px #7a2ce8, 0 0 50px #7a2ce8, 0 0 60px #7a2ce8, 0 0 70px #7a2ce8, 0 0 80px #7a2ce8;
+    }
+}
+
+
+
 .container {
     height: 100vh; /* Set the desired height for your container */
     overflow: auto;
@@ -70,10 +104,7 @@ a:visited {
 }
 
 body {
-    background-color: darkblue;
-    background-image: url('imgs/sky.jpeg');
-    background-repeat: repeat; /* Set to your desired value */
-    background-size: 100%;
+    background-color: #1b1b1c;
     cursor: url('imgs/Subject 42.png'), auto;
     overflow: scroll;
     position: relative;
