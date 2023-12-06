@@ -149,39 +149,8 @@ top: -150px;
 
 .allstar { 
     position: relative;
-    max-width: 130%;
-    margin-left: 100px;
+    scale: 200%;
  }
 
 
-.star1 {
-    position: relative;
-    top: 0px;
-    left: 50%;
-    width: 110%;
-    height: 110%;
-}
-
-
-.star2 {
-    position: relative;
-    top: -50%;
-    width: 110%;
-    height: 110%;
-}
-
-.star3 {
-    position: relative;
-    top: -10000px;
-    width: 110%;
-    height: 110%;
-}
-
-
-.star4 {
-    position: relative;
-    top: -700px;
-    width: 110%;
-    height: 110%;
-}
 
